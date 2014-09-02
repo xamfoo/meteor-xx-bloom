@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Bloom filter backed by xxhash",
   version: "0.0.2",
-  git: "https://github.com/ceejbot/xx-bloom"
+  git: "https://github.com/xamfoo/meteor-xx-bloom"
 });
 
 Package.onUse(function(api) {
