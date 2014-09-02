@@ -6,8 +6,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0.1');
-  api.addFiles('bloom.js');
-  api.export('BloomFilter');
+  api.addFiles('bloom.js', 'server');
+  api.export('BloomFilter', 'server');
 });
 
 Npm.depends({
