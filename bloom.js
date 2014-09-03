@@ -5,7 +5,7 @@ var
 	;
 
 
-function BloomFilter(options)
+BloomFilter = function (options)
 {
 	options = options || {};
 

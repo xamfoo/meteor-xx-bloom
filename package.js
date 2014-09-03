@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Bloom filter backed by xxhash",
-  version: "0.0.2",
+  version: "0.0.4",
   git: "https://github.com/xamfoo/meteor-xx-bloom"
 });
 
